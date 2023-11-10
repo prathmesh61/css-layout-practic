@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: "Oswald", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.btn {
+  background: #000000;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  max-width: fit-content;
+  padding: 0.6rem 2rem;
+}
+
+/* header style */
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.main-bg {
+  background-image: url("https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/hero-01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.nav-mid-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-end-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.link {
+  font-size: 1.4rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* hero style */
+.hero {
+  position: relative;
+  padding: 1rem 2rem;
+}
+.hero-wrapper {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-wrapper .deal-date {
+  font-weight: 300;
+  font-size: 1.5rem;
+  word-spacing: 5px;
+}
+.hero-wrapper .main-heading {
+  font-weight: 700;
+  font-size: 7rem;
+}
+.hero-wrapper .sub-heading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+.hero-btn {
+  margin-top: 1rem;
+}

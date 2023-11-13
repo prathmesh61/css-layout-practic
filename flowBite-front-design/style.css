@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main {
+  background-color: #1a1a34;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://uploads-ssl.webflow.com/646238196be0860387109ec5/64758f4a591b8cffd54a2be5_Lines-Down.svg"),
+    url("https://uploads-ssl.webflow.com/646238196be0860387109ec5/64758ee2bfcd3455e111e098_lines-up.svg"),
+    url("https://uploads-ssl.webflow.com/646238196be0860387109ec5/64758da003a904b42a0db6ba_blur%20shape.svg"),
+    linear-gradient(#1a1a38, #15151d);
+  background-position: 50% 100%, 50% 0, 50% 100%, 0 0;
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  background-size: auto, auto, auto, auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.link {
+  color: white;
+  font-size: 1.4rem;
+}
+.nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.cta1 {
+  background-color: inherit;
+  color: white;
+  border: none;
+  outline: none;
+}
+.cta2 {
+  background-color: inherit;
+  color: white;
+  border-color: white;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+.container2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+.hero-section {
+  margin-top: 5rem;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.hero-main-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: white;
+}
+.hero-cta {
+  background-color: #6e51ff;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+
+  font-size: 1.5rem;
+  padding: 0.5rem 4rem;
+}
+.hero-img {
+  width: 100%;
+
+  height: 100%;
+  overflow: hidden;
+  border-radius: 2rem;
+}
